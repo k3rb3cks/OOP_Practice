@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
@@ -24,6 +24,7 @@
                 }
             ],
             "preLaunchTask": "C/C++: g++.exe build active file"
+
         }
     ]
 }
