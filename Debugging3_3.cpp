@@ -14,7 +14,5 @@ int main()
     std::cout<<str<<std::endl;
     delete str;
     str = "123";
-
-    
     std::cout<<str;
 }
