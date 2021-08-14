@@ -14,7 +14,7 @@ class String
             str = new char[length + 1];
         }
 
-        String(char* s)
+        String(const char* s)
         {
            this->length = strlen(s);
            str = new char[length + 1];
@@ -55,9 +55,9 @@ int main()
     s1.display();
     String s2("Well Done");
     s2.display();
-    String s3(" Next String");
+    /*String s3(" Next String");
     s3.display();
     String s4;
     s4 = s2.concat(s3);
-    s4.display();
+    s4.display();*/
 }
